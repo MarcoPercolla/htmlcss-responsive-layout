@@ -97,6 +97,11 @@ header {
     margin: 2vh auto;
 }
 
+.aboutcardp {
+    width: 100%;
+    margin: 2vh auto;
+}
+
 .started {
     border: solid black 3px;
     min-height: 30vh;
@@ -155,7 +160,13 @@ footer  {
     .planning {
         display: flex;
     }
-    .benefitcard {
-        width: calc(100%/3 - 2vw);
+
+    .planningcard ,
+    .planningitems {
+        width: 48%;
     }
+    .benefitcard {
+        width: calc(100%/3 - 2em);
+    }
+
 }
