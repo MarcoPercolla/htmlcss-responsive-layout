@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.pad1 {
+    padding:2.5em 2em;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(123, 248, 255);
+    min-height: 10vh;
+}
+
+.demo {
+    border: solid black 3px;
+    min-height: 30vh;
+    
+}
+
+.democard {
+    width: 100%;
+    min-height: 15vh;
+    background-color: aqua;
+    border: solid black 3px;
+    margin: 2vh auto;
+}
+
+.planning {
+    border: solid black 3px;
+    min-height: 30vh;
+}
+
+.planningitems {
+    width: 100%;
+    min-height: 15vh;
+    background-color: rgb(229, 255, 0);
+    border: solid black 3px;
+    margin: 2vh auto;
+    
+}
+
+.planningcard {
+    width: 100%;
+    min-height: 15vh;
+    background-color: aqua;
+    border: solid black 3px;
+    margin: 2vh auto;
+}
+
+.planning img {
+    width:100%
+}
+
+.testimonial {
+    border: solid black 3px;
+    min-height: 30vh;
+    
+}
+
+.testimonialcard {
+    width: 100%;
+    min-height: 15vh;
+    background-color: aqua;
+    border: solid black 3px;
+    margin: 2vh auto;
+}
+
+.benefit {
+    border: solid black 3px;
+    min-height: 30vh;
+}
+
+.benefitcard {
+    width: 100%;
+    min-height: 15vh;
+    background-color: aqua;
+    border: solid black 3px;
+    margin: 2vh auto;
+}
+
+.about {
+    border: solid black 3px;
+    min-height: 30vh;
+}
+
+.aboutcard {
+    width: 100%;
+    min-height: 15vh;
+    background-color: aqua;
+    border: solid black 3px;
+    margin: 2vh auto;
+}
+
+.started {
+    border: solid black 3px;
+    min-height: 30vh;
+    text-align: center;
+}
+
+footer  {
+    text-align: center;
+}
+
