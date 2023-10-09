@@ -107,3 +107,41 @@ footer  {
     text-align: center;
 }
 
+/* tablet */
+@media screen and (min-width:768px){
+    .demo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .democard {
+        width: calc(100%/3 - 1vw);
+    }
+
+    .long {
+        width: calc(((100% / 3) * 2) - 1vw);
+    }
+
+    .benefit {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefit h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefitcard {
+        width: calc(100%/2 - 2vw);
+    }
+
+    .about {
+        display: flex;
+    }
+
+    .about div {
+        width: calc(50% - 1vw);
+    }
+
+}
