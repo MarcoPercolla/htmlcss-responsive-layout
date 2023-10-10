@@ -4,8 +4,19 @@
     margin: 0;
 }
 
+/*PALETTE COLORI 
+#0084FD
+#B5DDFF
+#9792E4
+#FDC15F
+#333333 */
+
 .pad1 {
     padding:2.5em 2em;
+}
+
+.centered{
+    text-align: center;
 }
 
 body {
@@ -13,34 +24,75 @@ body {
 }
 
 header {
-    background-color: rgb(123, 248, 255);
-    min-height: 10vh;
+    background-color: #0084FD;
 }
 
-.demo {
-    border: solid black 3px;
-    min-height: 30vh;
+.header_container {
+    padding:10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+    
+}
+
+.demo { 
+    min-height: 30vh;
+}
+
+.demo h2 {
+    color:#0084FD;
+    margin-bottom: 20px; 
+}
+
+.demo p {
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px auto;
+}
+
+.bwbutton {
+    
+    background-color: #0084FD;
+    padding:0.5em 2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+       
+}
+
+.demo img{
+    width: 100%;
+    margin-top: 30px;
 }
 
 .democard {
     width: 100%;
     min-height: 15vh;
-    background-color: aqua;
-    border: solid black 3px;
+    background-color: #B5DDFF;
     margin: 2vh auto;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+.long{
+    padding-bottom: 0;
+}
+
+.purplebg{
+    background-color: #9792E4;
+
 }
 
 .planning {
-    border: solid black 3px;
+    
     min-height: 30vh;
 }
 
 .planningitems {
     width: 100%;
     min-height: 15vh;
-    background-color: rgb(229, 255, 0);
-    border: solid black 3px;
     margin: 2vh auto;
     
 }
@@ -48,8 +100,8 @@ header {
 .planningcard {
     width: 100%;
     min-height: 15vh;
-    background-color: aqua;
-    border: solid black 3px;
+    background-color: white;
+    
     margin: 2vh auto;
 }
 
@@ -58,7 +110,7 @@ header {
 }
 
 .testimonial {
-    border: solid black 3px;
+    
     min-height: 30vh;
     
 }
@@ -66,26 +118,26 @@ header {
 .testimonialcard {
     width: 100%;
     min-height: 15vh;
-    background-color: aqua;
-    border: solid black 3px;
+    background-color:#9792E4;
+    
     margin: 2vh auto;
 }
 
 .benefit {
-    border: solid black 3px;
+    
     min-height: 30vh;
 }
 
 .benefitcard {
     width: 100%;
     min-height: 15vh;
-    background-color: aqua;
-    border: solid black 3px;
+    background-color: white;
+    
     margin: 2vh auto;
 }
 
 .about {
-    border: solid black 3px;
+    
     min-height: 30vh;
 }
 
@@ -93,7 +145,7 @@ header {
     width: 100%;
     min-height: 15vh;
     background-color: aqua;
-    border: solid black 3px;
+    
     margin: 2vh auto;
 }
 
@@ -103,7 +155,7 @@ header {
 }
 
 .started {
-    border: solid black 3px;
+    
     min-height: 30vh;
     text-align: center;
 }
