@@ -42,7 +42,7 @@ header {
 
 .demo h2 {
     color:#0084FD;
-    margin-bottom: 20px; 
+    margin: 20px auto; 
 }
 
 .demo p {
@@ -76,6 +76,11 @@ header {
     border-radius: 20px;
 }
 
+.democard div > i{
+    font-size: 80px;
+    color: #0084FD;
+}
+
 .long{
     padding-bottom: 0;
 }
@@ -106,7 +111,37 @@ header {
 }
 
 .planning img {
-    width:100%
+    width:100%;
+}
+
+.planningitems {
+    color: white;
+}
+
+.m10 {
+    margin: 10px auto;
+}
+
+.m20 {
+    margin: 20px auto;
+}
+
+.m30 {
+    margin: 30px auto;
+}
+
+.planningcard{
+    border-radius: 30px;
+    text-align: center;
+    padding:1em
+}
+
+.planningcard button{
+    background-color: #9792E4;
+    border: none;
+    border-radius: 60%;
+    padding:1em
+
 }
 
 .testimonial {
