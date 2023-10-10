@@ -90,6 +90,16 @@ header {
 
 }
 
+.purplebutton {
+    
+    background-color:#9792E4;
+    padding:0.5em 2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+       
+}
+
 .planning {
     
     min-height: 30vh;
@@ -145,8 +155,13 @@ header {
 }
 
 .testimonial {
-    
     min-height: 30vh;
+    text-align: center;
+}
+
+.testimonial h4{
+    font-weight: 100;
+    font-size: 20px;
     
 }
 
@@ -154,8 +169,18 @@ header {
     width: 100%;
     min-height: 15vh;
     background-color:#9792E4;
-    
     margin: 2vh auto;
+    border-radius: 30px;
+    padding: 20px ;
+    color: white;
+}
+
+.testimonialcard img {
+    width:150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit:cover;
+    margin: 20px auto;
 }
 
 .benefit {
@@ -167,8 +192,29 @@ header {
     width: 100%;
     min-height: 15vh;
     background-color: white;
-    
+    padding:20px;
     margin: 2vh auto;
+    border-radius: 40px;
+}
+
+.benefit h2{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
+.benefitcard h3{
+    font-size: 45px;
+    color: #9792E4;
+}
+
+.benefitcard h4{
+    font-size: 30px;
+    color: #9792E4;
+}
+
+.benefitcard p{
+    color:#4c4c4c
 }
 
 .about {
@@ -179,9 +225,15 @@ header {
 .aboutcard {
     width: 100%;
     min-height: 15vh;
-    background-color: aqua;
-    
     margin: 2vh auto;
+}
+
+.aboutcard img {
+    width:150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit:cover;
+    margin: 20px auto;
 }
 
 .aboutcardp {
@@ -190,13 +242,38 @@ header {
 }
 
 .started {
-    
+    color:white;
     min-height: 30vh;
     text-align: center;
 }
 
+.started h2{
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+}
+
+.started h4 {
+    font-size: 35px;
+}
+
+.started strong{
+    font-size: 80px;
+    color:#FDC15F;
+}
+
+.whitebutton {
+    background-color: #ffffff;
+    padding:0.5em 2em;
+    text-decoration: none;
+    color:none;
+    border-radius: 50px;
+}
+
 footer  {
     text-align: center;
+    background-color: #4c4c4c;
+    color: white;
 }
 
 /* tablet */
