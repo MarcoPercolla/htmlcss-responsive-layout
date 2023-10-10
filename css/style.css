@@ -21,6 +21,7 @@
 
 body {
     font-family: sans-serif;
+    line-height: 30px;
 }
 
 header {
@@ -48,7 +49,6 @@ header {
 .demo p {
     color: #4c4c4c;
     font-size: 16px;
-    line-height: 30px;
     margin: 30px auto;
 }
 
@@ -309,8 +309,13 @@ footer  {
         display: flex;
     }
 
-    .about div {
-        width: calc(50% - 1vw);
+    .aboutcardp {
+        width:50%;
+    }
+
+    .aboutcard {
+        width: 35%;
+        height: fit-content;
     }
 
 }
@@ -318,14 +323,28 @@ footer  {
 /* Desktop */
 @media screen and (min-width:992px) {
     .container {
-        max-width: 700px;
+        max-width: 900px;
         margin: 0 auto;
     }
     .planning {
         display: flex;
+        align-items: end;
     }
 
-    .planningcard ,
+    .long{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .long img {
+        width: 45%;
+        object-fit: fill;
+    }
+
+    .planningcard {
+        width: 30%;
+        height: fit-content;
+    }
     .planningitems {
         width: 48%;
     }
