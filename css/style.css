@@ -34,11 +34,36 @@ header {
     justify-content: space-between;
     align-items: center;
     
-    
 }
 
-.demo { 
-    min-height: 30vh;
+.white_button_nav {
+    background-color: #ffffff;
+    padding:0.2em 0.8em;
+    text-decoration: none;
+    font-weight: 100;
+    color: #000000;
+    border-radius: 50px;
+
+}
+
+.white_button_nav:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    background-color: #4c4c4c;
+    color: white;
+
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: none;
+}
+
+nav a:hover{
+    transition: 0.2s;
+    font-size: 1.3em;
 }
 
 .demo h2 {
@@ -62,6 +87,14 @@ header {
        
 }
 
+.bwbutton:hover{
+    transition: 0.3s;
+    font-size: 1.2em;
+    background-color: white;
+    color:#0084FD
+
+}
+
 .demo img{
     width: 100%;
     margin-top: 30px;
@@ -69,11 +102,11 @@ header {
 
 .democard {
     width: 100%;
-    min-height: 15vh;
     background-color: #B5DDFF;
     margin: 2vh auto;
     padding: 20px 15px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .democard div > i{
@@ -83,6 +116,7 @@ header {
 
 .long{
     padding-bottom: 0;
+    text-align: left;
 }
 
 .purplebg{
@@ -100,9 +134,12 @@ header {
        
 }
 
-.planning {
-    
-    min-height: 30vh;
+.purplebutton:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    color:#9792E4;
+    background-color: #ffffff;
+    border: solid 2px #67639d;
 }
 
 .planningitems {
@@ -114,7 +151,7 @@ header {
 
 .planningcard {
     width: 100%;
-    min-height: 15vh;
+    
     background-color: white;
     
     margin: 2vh auto;
@@ -140,6 +177,10 @@ header {
     margin: 30px auto;
 }
 
+.m50b{
+    margin-bottom: 50px;
+}
+
 .planningcard{
     border-radius: 30px;
     text-align: center;
@@ -155,8 +196,17 @@ header {
 }
 
 .testimonial {
-    min-height: 30vh;
     text-align: center;
+}
+
+.testimonial h2{
+    color: #9792E4;
+    font-size: 40px;
+}
+
+.testimonial h3 {
+    font-style: normal;
+    font-size: 18px;
 }
 
 .testimonial h4{
@@ -167,7 +217,6 @@ header {
 
 .testimonialcard {
     width: 100%;
-    min-height: 15vh;
     background-color:#9792E4;
     margin: 2vh auto;
     border-radius: 30px;
@@ -183,11 +232,6 @@ header {
     margin: 20px auto;
 }
 
-.benefit {
-    
-    min-height: 30vh;
-}
-
 .benefitcard {
     width: 100%;
     min-height: 15vh;
@@ -195,6 +239,7 @@ header {
     padding:20px;
     margin: 2vh auto;
     border-radius: 40px;
+    
 }
 
 .benefit h2{
@@ -217,34 +262,56 @@ header {
     color:#4c4c4c
 }
 
-.about {
-    
-    min-height: 30vh;
+
+.about h2{
+    font-size: 40px;
+    color:#9792E4;
+}
+
+.about h3{
+    font-size: 20px;
+    color:#9792E4;
 }
 
 .aboutcard {
+    position:relative;
     width: 100%;
-    min-height: 15vh;
     margin: 2vh auto;
 }
 
-.aboutcard img {
+#quoted {
+    position: relative;
     width:150px;
     height: 150px;
     border-radius: 60%;
     object-fit:cover;
     margin: 20px auto;
+    
+}
+
+.aboutcard > i {
+    font-size: 50px;
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+    color:#9792E4;
+    
 }
 
 .aboutcardp {
     width: 100%;
     margin: 2vh auto;
+    
 }
 
 .started {
     color:white;
     min-height: 30vh;
     text-align: center;
+}
+
+.started p {
+    width: 50%;
 }
 
 .started h2{
@@ -257,6 +324,10 @@ header {
     font-size: 35px;
 }
 
+.started h5 {
+    font-size: 12px;
+}
+
 .started strong{
     font-size: 80px;
     color:#FDC15F;
@@ -264,17 +335,40 @@ header {
 
 .whitebutton {
     background-color: #ffffff;
-    padding:0.5em 2em;
+    padding:1.5em 4em;
     text-decoration: none;
-    color:none;
+    font-weight: 800;
+    color: #9792E4;
     border-radius: 50px;
+}
+
+.whitebutton:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+    color:#ffffff;
+    background-color: #9792E4;
+    border: solid 2px #67639d;
 }
 
 footer  {
     text-align: center;
     background-color: #4c4c4c;
     color: white;
+    
 }
+
+footer p{
+    font-size: 12px;
+    display: block;
+    width: 25%;
+    margin: 0 auto
+}
+
+footer a {
+    color: #9792E4;
+}
+
+
 
 /* tablet */
 @media screen and (min-width:768px){
@@ -326,19 +420,50 @@ footer  {
         max-width: 900px;
         margin: 0 auto;
     }
+
+    nav a{
+        display: inline;
+    }
+
+    #burger{
+        display: none;
+    }
+        
+
     .planning {
         display: flex;
-        align-items: end;
+        align-items: flex-end;
     }
 
     .long{
         display: flex;
         justify-content: space-around;
+       
     }
 
     .long img {
         width: 45%;
         object-fit: fill;
+    }
+    
+    .democard{
+        height: 330px;
+        
+    }
+
+    .testimonialcard{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .testimonialcard img{
+        margin:20px;
+    }
+
+    .testimonialcard > div {
+        text-align: left;
+        margin:0
     }
 
     .planningcard {
@@ -350,6 +475,22 @@ footer  {
     }
     .benefitcard {
         width: calc(100%/3 - 2em);
+    }
+
+    .aboutcard{
+        display: flex;
+        flex-direction: column;
+        width: 25% ;
+        align-items:start;
+    }
+
+    .aboutcard i {
+        left:150px;
+        bottom:170px
+    }
+
+    .aboutcard img{
+        margin:0
     }
 
 }
